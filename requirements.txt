@@ -1,2 +1,3 @@
 pytorch_transformers
 tensorboardX
+botocore==1.19

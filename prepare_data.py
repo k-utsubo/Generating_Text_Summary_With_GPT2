@@ -116,7 +116,7 @@ if __name__ == '__main__':
         directory = "cnn_stories_tokenized"
         os.chdir('/CNN/')
     else:
-        directory = "dm_stories_tokenized"
-        os.chdir('./DM/')
+        directory = "cnn_stories_tokenized"
+        os.chdir('./CNN/')
     main(file_names, directory)
     print("total_time_taken: ", (time.time()-start)/60, " minutes")

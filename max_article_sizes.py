@@ -39,7 +39,7 @@ if __name__ == '__main__':
     if sys.argv[1].startswith("cnn"):
         name = "CNN"
     else:
-        name = "DM"
+        name = "CNN"
 
     make_dir("./"+name)
     max_len, max_len_filename, article_sizes = calc_article_sizes(
