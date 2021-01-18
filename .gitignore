@@ -7,6 +7,6 @@ save
 *.o*
 
 .idea
-CNN/gpt2_1024_data
-DM/gpt2_1024_data
+CNN
+DM
 *.log
