@@ -6,7 +6,7 @@ import sys
 import time
 
 import numpy as np
-from pytorch_transformers import GPT2Tokenizer
+from transformers import GPT2Tokenizer
 import torch
 import torch.nn.functional as F
 
@@ -90,7 +90,7 @@ def beam_search(model, context, length, beam_size, device, temperature=1):
         scores, indices = torch.topk(next_token_probs, beam_size)
         indices = indices.tolist()
         sequences = [[c] for c in indices]
-        for _ in tnrange(length-1):
+        for _ in range(length-1):
             logits = torch.zeros(beam_size*len(next_token_logits))
             for j in range(len(sequences)):
                 new_generated = torch.cat((context, torch.tensor(
@@ -109,7 +109,7 @@ def beam_search(model, context, length, beam_size, device, temperature=1):
     return scores, sequences
 
 
-def generate_beam_sample(data, tokenizer, num=1, length=100, beam_size=3, device=torch.device('cuda')):
+def generate_beam_sample(model, data, tokenizer, num=1, length=100, beam_size=3, device=torch.device('cuda')):
     for i in range(num):
         sample = data[i]
         idx = sample['sum_idx']

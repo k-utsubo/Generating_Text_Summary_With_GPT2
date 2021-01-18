@@ -1,3 +1,8 @@
-pytorch_transformers
-tensorboardX
-botocore==1.19
+
+torch==1.7.1
+tqdm==4.28.1
+transformers==3.4.0
+tensorboardX==1.4
+matplotlib
+numpy
+ipywidgets

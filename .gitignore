@@ -1,0 +1,12 @@
+venv*
+__pycache__
+*.json
+save
+*~
+*.swp
+*.o*
+
+.idea
+CNN/gpt2_1024_data
+DM/gpt2_1024_data
+*.log
