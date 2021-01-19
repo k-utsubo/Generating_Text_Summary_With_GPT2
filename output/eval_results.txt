@@ -133,3 +133,30 @@ time = 19/01/2021 03:28:32, perplexity = tensor(10.4435), step = 452
 
 
 time = 19/01/2021 03:47:52, perplexity = tensor(10.6872), step = 462
+
+
+time = 19/01/2021 09:07:15, perplexity = tensor(inf), step = 10
+
+
+time = 19/01/2021 09:30:12, perplexity = tensor(3.6241e+31), step = 20
+
+
+time = 19/01/2021 09:51:42, perplexity = tensor(3.0582e+19), step = 30
+
+
+time = 19/01/2021 10:12:22, perplexity = tensor(258108.6406), step = 40
+
+
+time = 19/01/2021 10:33:16, perplexity = tensor(213.6178), step = 50
+
+
+time = 19/01/2021 10:54:03, perplexity = tensor(1216.3542), step = 60
+
+
+time = 19/01/2021 11:14:30, perplexity = tensor(74.4775), step = 70
+
+
+time = 19/01/2021 11:35:00, perplexity = tensor(28.4692), step = 80
+
+
+time = 19/01/2021 11:55:19, perplexity = tensor(29.9138), step = 90
