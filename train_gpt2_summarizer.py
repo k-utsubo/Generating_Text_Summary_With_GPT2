@@ -168,8 +168,8 @@ def main():
     print('total time: ', (time.time()-start)/60, " minutes", end='\n\n')
 
     print('Saving trained model...')
-    model_file = os.path.join(args['model_dir'], 'model_{}_data{}_trained_after_{}_epochs_only_sum_loss_ignr_pad.bin'.format(args['fp16_opt_level'],3000,args['num_train_epochs']))
-    config_file = os.path.join(args['model_dir'], 'config_{}_data{}_trained_after_{}_epochs_only_sum_loss_ignr_pad.json'.format(args['fp16_opt_level'],3000,args['num_train_epochs']))
+    model_file = os.path.join(args.model_dir, 'model_{}_data{}_trained_after_{}_epochs_only_sum_loss_ignr_pad.bin'.format(args.fp16_opt_level,3000,args.num_train_epochs))
+    config_file = os.path.join(args.model_dir, 'config_{}_data{}_trained_after_{}_epochs_only_sum_loss_ignr_pad.json'.format(args.fp16_opt_level,3000,args.num_train_epochs))
     torch.save(model.state_dict(), model_file)
     model.config.to_json_file(config_file)
 
