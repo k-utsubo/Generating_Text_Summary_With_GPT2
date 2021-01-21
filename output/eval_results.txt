@@ -1,0 +1,162 @@
+
+
+time = 18/01/2021 12:53:46, perplexity = tensor(inf), step = 10
+
+
+time = 18/01/2021 13:15:16, perplexity = tensor(1.7885e+34), step = 20
+
+
+time = 18/01/2021 13:35:48, perplexity = tensor(1.8965e+21), step = 30
+
+
+time = 18/01/2021 13:55:28, perplexity = tensor(498354.1562), step = 40
+
+
+time = 18/01/2021 14:14:55, perplexity = tensor(163.1557), step = 50
+
+
+time = 18/01/2021 14:34:36, perplexity = tensor(356.4952), step = 60
+
+
+time = 18/01/2021 14:54:14, perplexity = tensor(204.7108), step = 70
+
+
+time = 18/01/2021 15:14:08, perplexity = tensor(29.2778), step = 80
+
+
+time = 18/01/2021 15:33:45, perplexity = tensor(34.2981), step = 90
+
+
+time = 18/01/2021 15:59:59, perplexity = tensor(31.0171), step = 103
+
+
+time = 18/01/2021 16:19:36, perplexity = tensor(19.3794), step = 113
+
+
+time = 18/01/2021 16:39:23, perplexity = tensor(15.8973), step = 123
+
+
+time = 18/01/2021 16:59:12, perplexity = tensor(29.3537), step = 133
+
+
+time = 18/01/2021 17:19:04, perplexity = tensor(12.4555), step = 143
+
+
+time = 18/01/2021 17:39:02, perplexity = tensor(12.1676), step = 153
+
+
+time = 18/01/2021 17:58:56, perplexity = tensor(11.7156), step = 163
+
+
+time = 18/01/2021 18:18:31, perplexity = tensor(11.8385), step = 173
+
+
+time = 18/01/2021 18:37:59, perplexity = tensor(12.1912), step = 183
+
+
+time = 18/01/2021 19:03:58, perplexity = tensor(12.2802), step = 196
+
+
+time = 18/01/2021 19:23:30, perplexity = tensor(11.3306), step = 206
+
+
+time = 18/01/2021 19:43:03, perplexity = tensor(11.8001), step = 216
+
+
+time = 18/01/2021 20:02:45, perplexity = tensor(11.1698), step = 226
+
+
+time = 18/01/2021 20:22:31, perplexity = tensor(11.9152), step = 236
+
+
+time = 18/01/2021 20:42:06, perplexity = tensor(12.2485), step = 246
+
+
+time = 18/01/2021 21:01:39, perplexity = tensor(11.4410), step = 256
+
+
+time = 18/01/2021 21:21:19, perplexity = tensor(11.6815), step = 266
+
+
+time = 18/01/2021 21:40:59, perplexity = tensor(12.4560), step = 276
+
+
+time = 18/01/2021 22:07:36, perplexity = tensor(11.9742), step = 289
+
+
+time = 18/01/2021 22:27:26, perplexity = tensor(11.5196), step = 299
+
+
+time = 18/01/2021 22:47:12, perplexity = tensor(12.1161), step = 309
+
+
+time = 18/01/2021 23:06:59, perplexity = tensor(11.4566), step = 319
+
+
+time = 18/01/2021 23:26:48, perplexity = tensor(11.5275), step = 329
+
+
+time = 18/01/2021 23:46:40, perplexity = tensor(10.9264), step = 339
+
+
+time = 19/01/2021 00:06:25, perplexity = tensor(10.7910), step = 349
+
+
+time = 19/01/2021 00:26:15, perplexity = tensor(10.7461), step = 359
+
+
+time = 19/01/2021 00:45:58, perplexity = tensor(10.5440), step = 369
+
+
+time = 19/01/2021 01:11:50, perplexity = tensor(10.6250), step = 382
+
+
+time = 19/01/2021 01:30:51, perplexity = tensor(11.5372), step = 392
+
+
+time = 19/01/2021 01:50:24, perplexity = tensor(10.8053), step = 402
+
+
+time = 19/01/2021 02:10:02, perplexity = tensor(10.7595), step = 412
+
+
+time = 19/01/2021 02:29:42, perplexity = tensor(10.5394), step = 422
+
+
+time = 19/01/2021 02:49:16, perplexity = tensor(10.6090), step = 432
+
+
+time = 19/01/2021 03:08:58, perplexity = tensor(10.6878), step = 442
+
+
+time = 19/01/2021 03:28:32, perplexity = tensor(10.4435), step = 452
+
+
+time = 19/01/2021 03:47:52, perplexity = tensor(10.6872), step = 462
+
+
+time = 19/01/2021 09:07:15, perplexity = tensor(inf), step = 10
+
+
+time = 19/01/2021 09:30:12, perplexity = tensor(3.6241e+31), step = 20
+
+
+time = 19/01/2021 09:51:42, perplexity = tensor(3.0582e+19), step = 30
+
+
+time = 19/01/2021 10:12:22, perplexity = tensor(258108.6406), step = 40
+
+
+time = 19/01/2021 10:33:16, perplexity = tensor(213.6178), step = 50
+
+
+time = 19/01/2021 10:54:03, perplexity = tensor(1216.3542), step = 60
+
+
+time = 19/01/2021 11:14:30, perplexity = tensor(74.4775), step = 70
+
+
+time = 19/01/2021 11:35:00, perplexity = tensor(28.4692), step = 80
+
+
+time = 19/01/2021 11:55:19, perplexity = tensor(29.9138), step = 90
