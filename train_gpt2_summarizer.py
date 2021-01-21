@@ -44,7 +44,8 @@ def train(args, model, tokenizer, train_dataset, valid_dataset, ignore_index):
     train_iterator = tnrange(int(args.num_train_epochs), desc="Epoch")
     set_seed(args)
     for epoch, _ in enumerate(train_iterator):
-        epoch_iterator = tqdm(train_dl, desc="Training")
+        #epoch_iterator = tqdm(train_dl, desc="Training")
+        epoch_iterator = train_dl
         for step, batch in enumerate(epoch_iterator):
             inputs, labels = torch.tensor(batch['article']), torch.tensor(batch['article'])
             inputs = inputs.to(args.device)
@@ -80,7 +81,7 @@ def train(args, model, tokenizer, train_dataset, valid_dataset, ignore_index):
                 print('After', global_step+1,'updates: ', end='\n\n')
                 generate_sample(model, valid_dataset, tokenizer, num=2, eval_step=True, device=args.device)
 
-        model_file = os.path.join(args['model_dir'], f'model_{epoch}.bin')
+        model_file = os.path.join(args.model_dir, f'model_{epoch}.bin')
         torch.save(model.state_dict(), model_file)
 
 
