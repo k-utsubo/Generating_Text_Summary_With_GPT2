@@ -80,7 +80,7 @@ def train(args, model, tokenizer, train_dataset, valid_dataset, ignore_index):
                 print('After', global_step+1,'updates: ', end='\n\n')
                 generate_sample(model, valid_dataset, tokenizer, num=2, eval_step=True, device=args.device)
 
-        model_file = os.path.join(args['model_dir'], 'model_{}.bin'.format(epoch))
+        model_file = os.path.join(args['model_dir'], f'model_{epoch}.bin')
         torch.save(model.state_dict(), model_file)
 
 
